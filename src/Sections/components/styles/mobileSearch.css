@@ -1,5 +1,5 @@
-.ms input{
-    width: 400px;
+.mobile input{
+    width: 250px;
     height: 40px;
     border-radius: 10px;
     outline: none;
@@ -12,6 +12,7 @@
 .mobile{
     display: none;
 }
+
 @media (max-width:799px) {
     .mobile{
         display: block;

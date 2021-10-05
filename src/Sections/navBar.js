@@ -9,6 +9,7 @@ import Mobilesearch from "./components/mobileSearch";
 
 
 
+
 const navBar = () => {
     return ( <>
         <div className="navElements">

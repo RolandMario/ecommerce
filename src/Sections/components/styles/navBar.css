@@ -12,3 +12,14 @@
     justify-content: center;
     align-items: center;
 }
+.nav-close{
+    display: none;
+}
+.nav-open{
+    display: none;
+}
+@media (max-width:799px) {
+    .nav-open{
+        display: block;
+    }
+}
