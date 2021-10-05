@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-input{
+.search input{
     width: 400px;
     height: 40px;
     border: none;
@@ -9,7 +9,7 @@ input{
     font-family: 'Poppins', sans-serif;
     
 }
-input:focus{
+.search input:focus{
     border-bottom-color: var(--primary);
     transition: 1s ease-in;
 }
@@ -40,7 +40,8 @@ div h2{
 }
 @media (max-width:799px) {
     .search{
-        display: none;
+       
+        display: none
     }
     .navElements{
        display: flex;
