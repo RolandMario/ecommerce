@@ -1,0 +1,18 @@
+
+:root{
+    --primary: #21b54d;
+    --hovercolor: #054a1a;
+}
+
+.user{
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--primary);
+    box-shadow: inset;
+    margin-left: 20px;
+
+}
+.user:hover{
+    color: var(--hovercolor);
+    cursor: pointer;
+}
