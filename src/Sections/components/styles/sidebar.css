@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.categories{
+    position: fixed;
+    left: 0px;
+    width: 300px;
+    height: 100vh;
+    background-color: #deebe1;
+    top: 0px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.categories ul{
+    
+    list-style: none;
+}
+.categories ul li{
+    margin-top: 50px;
+    cursor: pointer;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+  
+}
+.close{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+}

@@ -2,25 +2,29 @@ import Brand from "./components/brandName";
 import Search from "./components/search";
 import Account from "./components/account";
 import ShoppingCart from "./components/shoppingCart";
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars} from 'react-icons/fa'
 import './components/styles/search.css';
 import './components/styles/navBar.css';
 import Mobilesearch from "./components/mobileSearch";
+import Sidebar from "./components/sidebar";
+//import { useState } from "react";
 
 
 
 
-const navBar = () => {
-    return ( <>
+const NavBar = () => {
+const onClickOpen = (e)=>{
+    const navClose = document.querySelector('.categories');
+        navClose.style.opacity="1"
+        navClose.style.left="0px";
+}
+    
+    return ( 
+    
+    <>
         <div className="navElements">
-            <div className="burger-nav">
-                <div className="nav-close">
-                    <FaTimes/>
-                </div>
-                <div className="nav-open">
-                  <FaBars/>  
-                </div>
-                
+            <div className="nav-open" onClick={onClickOpen}>
+                <FaBars/>  
             </div>
             
             <Brand/>
@@ -38,8 +42,9 @@ const navBar = () => {
         <div className="ms">
             <Mobilesearch/>
         </div>
+        <Sidebar />
         </>
      );
 }
  
-export default navBar;
+export default NavBar;

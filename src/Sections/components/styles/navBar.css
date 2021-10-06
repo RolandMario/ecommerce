@@ -1,22 +1,19 @@
-.burger-nav{
-    font-size: 25px;
-    font-weight: 900;
-    color: var(--primary);
-    display: flex;
-}
-.burger-nav:hover{
-    color: var(--hovercolor);
-}
+
 .ms{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav-close{
+
+.nav-open{
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--primary);
+    cursor: pointer;
     display: none;
 }
-.nav-open{
-    display: none;
+.nav-open:hover{
+    color: var(--hovercolor);
 }
 @media (max-width:799px) {
     .nav-open{
