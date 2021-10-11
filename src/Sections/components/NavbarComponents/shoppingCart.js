@@ -1,5 +1,5 @@
 import {FaCartArrowDown} from 'react-icons/fa';
-import './styles/cart.css'
+import '../Navbarstyles/cart.css'
 
 const shoppingCart = () => {
     return ( 

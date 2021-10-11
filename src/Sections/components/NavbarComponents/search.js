@@ -1,5 +1,5 @@
 import {FaSearch} from 'react-icons/fa';
-import './styles/search.css';
+import '../Navbarstyles/search.css';
 
 const search = () => {
     return ( 

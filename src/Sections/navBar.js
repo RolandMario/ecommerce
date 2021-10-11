@@ -1,12 +1,12 @@
-import Brand from "./components/brandName";
-import Search from "./components/search";
-import Account from "./components/account";
-import ShoppingCart from "./components/shoppingCart";
+import Brand from "./components/NavbarComponents/brandName";
+import Search from "./components/NavbarComponents/search";
+import Account from "./components/NavbarComponents/account";
+import ShoppingCart from "./components/NavbarComponents/shoppingCart";
 import {FaBars} from 'react-icons/fa'
-import './components/styles/search.css';
-import './components/styles/navBar.css';
-import Mobilesearch from "./components/mobileSearch";
-import Sidebar from "./components/sidebar";
+import './components/Navbarstyles/search.css';
+import './components/Navbarstyles/navBar.css';
+import Mobilesearch from "./components/NavbarComponents/mobileSearch";
+import Sidebar from "./components/NavbarComponents/sidebar";
 //import { useState } from "react";
 
 

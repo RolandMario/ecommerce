@@ -1,6 +1,6 @@
 
 import { FaSearch } from "react-icons/fa";
-import './styles/mobileSearch.css'
+import '../Navbarstyles/mobileSearch.css';
 
 const mobilesearch = () => {
     return ( 

@@ -1,5 +1,5 @@
 import {FaUser} from 'react-icons/fa';
-import '../components/styles/account.css';
+import '../Navbarstyles/account.css';
 
 const account = () => {
     return ( 

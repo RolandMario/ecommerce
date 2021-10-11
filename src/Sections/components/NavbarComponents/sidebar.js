@@ -1,4 +1,4 @@
-import './styles/sidebar.css';
+import '../Navbarstyles/sidebar.css';
 import { FaTimes } from 'react-icons/fa';
 const sidebar = () => {
 
