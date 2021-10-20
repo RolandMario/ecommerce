@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
+
 const brand = () => {
     return ( 
-        <div>
-            <h2>DG-HOLDINGS</h2>
-        </div>
+        <Link to='/'>
+            <div>
+                <h2>DG-HOLDINGS</h2>
+            </div>
+        </Link>
+        
      );
 }
  

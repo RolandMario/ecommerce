@@ -1,0 +1,41 @@
+.accContainer{
+    position: fixed;
+    top: 60px;
+    right: 100px;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+    z-index: 5;
+    opacity: 0;
+}
+ .show{
+    opacity: 1;
+}
+.accContainer .signin{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    left: 5%;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.accContainer .signin button{
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: var(--primary);
+    border: 0px;
+    cursor: pointer;
+    transition: 1s;
+}
+.accContainer .signin button:hover{
+    background-color: var(--hovercolor);
+}

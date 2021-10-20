@@ -1,4 +1,6 @@
-
+a{
+ text-decoration: none;
+}
 .ms{
     display: flex;
     justify-content: center;

@@ -1,0 +1,32 @@
+
+.ItemCarousel-container{
+    margin-left: 5%;
+}
+.hotproducts{
+    margin-top: 50px;
+    /* margin-left: 5%; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: ridge;
+    
+}
+.right-left-arrow {
+    display: flex;
+}
+.right-left-arrow .left{
+    color: var(--hovercolor);
+    cursor: pointer;
+}
+.right-left-arrow .right{
+    color: var(--hovercolor);
+    cursor: pointer;
+}
+.owl-carousel{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    width: 85%;
+}
