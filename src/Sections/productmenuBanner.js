@@ -5,9 +5,14 @@ import SideAdvert from './components/ProductmenuComponents/sideAdvert';
 import ItemCarousel from './components/Items/ItemCarousel';
 import Images from '../Sections/components/images/clothesbg.png';
 
+
+
 const Productmenubanner = () => {
+    
     return ( 
+
         <>
+             
         <div className="section2">
         <Productmenu/>
         <BannerCarousel/> 
@@ -15,6 +20,10 @@ const Productmenubanner = () => {
        
         </div>
         <ItemCarousel Images={Images}/>
+        
+       
+        
+        
         </>
      );
 }

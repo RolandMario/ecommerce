@@ -1,13 +1,19 @@
-import {FaCartArrowDown} from 'react-icons/fa';
-import '../Navbarstyles/cart.css'
 
-const shoppingCart = () => {
+import {FaCartArrowDown} from 'react-icons/fa';
+import { useContext } from 'react';
+import { ProductContext } from '../Context/ProductContext';
+
+import '../Navbarstyles/cart.css';
+
+
+const ShoppingCart = () => {
+   const [productData, setProductData] = useContext(ProductContext);
     return ( 
         <div className="user">
             <FaCartArrowDown/>
-            <span>1</span>
+            <span>{productData.length}</span>
         </div>
      );
 }
  
-export default shoppingCart;
+export default ShoppingCart;

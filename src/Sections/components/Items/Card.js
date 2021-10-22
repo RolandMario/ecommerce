@@ -2,18 +2,30 @@ import {FaRegStar} from 'react-icons/fa';
 import '../ItemStyles/Card.css';
 
 import { CardData } from './cardData';
-import { useEffect, useState } from 'react';
-const Card = ({Images}) => {
-    
-    const [data, setData] = useState([])
+import { useContext, useEffect, useState } from 'react';
+import { ProductContext } from '../Context/ProductContext';
 
+const Card = () => {
+    
+    
+      const onAddCart =(index)=>{
+          
+          setProductData(prev=>[...prev, data[index]]);
+          
+      }
+   
+    const [data, setData] = useState([]);
+    
+    const [productData, setProductData] = useContext(ProductContext)
+    
 	useEffect(()=>{
 		setData(CardData)
+        
 	},[])
     return ( 
 
         <>
-        {data && data.map(i =>(
+        {data && data.map((i,index) =>(
         <div className="card" key={i.id}>
             <div className="product-Image">
             <img src={i.image} alt="product"/>
@@ -36,10 +48,13 @@ const Card = ({Images}) => {
                     <FaRegStar/>
                 </div>
                 <div className="addcart">
-                    <button key={i.id}>Add Cart</button>
+                    <button key={i.id} onClick={()=>{
+                        onAddCart(index)
+                    }}>Add Cart</button>
                 </div>
             </div>
         </div>
+        
         ))}
         </>
      );
