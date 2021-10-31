@@ -98,3 +98,10 @@
 .signininfo p:hover{
     color: var(--hovercolor);
 }
+/* Media query */
+@media (max-width:700px){
+    .signininfo{
+        width: 90%;
+    }
+
+}
