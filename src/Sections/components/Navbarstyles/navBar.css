@@ -1,5 +1,6 @@
 .navElements{
     position: sticky;
+    top: 0;
    
 }
 a{

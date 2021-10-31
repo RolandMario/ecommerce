@@ -16,7 +16,8 @@ const Card = () => {
    
     const [data, setData] = useState([]);
     
-    const [productData, setProductData] = useContext(ProductContext)
+    const [productData, setProductData] = useContext(ProductContext);
+    console.log(productData)
     
 	useEffect(()=>{
 		setData(CardData)

@@ -4,6 +4,7 @@ import  './components/productmenuStyles/Productmenubanner.css';
 import SideAdvert from './components/ProductmenuComponents/sideAdvert';
 import ItemCarousel from './components/Items/ItemCarousel';
 import Images from '../Sections/components/images/clothesbg.png';
+import ShoesBanner from './components/Shoes/ShoesBanner';
 
 
 
@@ -20,9 +21,7 @@ const Productmenubanner = () => {
        
         </div>
         <ItemCarousel Images={Images}/>
-        
-       
-        
+        <ShoesBanner/>
         
         </>
      );

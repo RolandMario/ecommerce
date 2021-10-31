@@ -1,6 +1,7 @@
 
 .ItemCarousel-container{
     margin-left: 5%;
+    
 }
 .hotproducts{
     margin-top: 50px;
@@ -29,4 +30,7 @@
     flex-wrap: nowrap;
     overflow-x: hidden;
     width: 85%;
+}
+.owl-carousel::-webkit-scrollbar-button{
+    width: 12;
 }

@@ -25,7 +25,7 @@ const BannerCarousel = () => {
     setInterval(()=>{
         let banner = document.querySelectorAll('.banner');
         if(index<= 2 && index>0 ){
-            console.log("up"+index);
+            
             banner[index].classList.add('hide');
            
              index = index - 1; 

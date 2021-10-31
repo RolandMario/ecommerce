@@ -8,6 +8,7 @@ import '../Navbarstyles/cart.css';
 
 const ShoppingCart = () => {
    const [productData, setProductData] = useContext(ProductContext);
+   console.log(setProductData)
     return ( 
         <div className="user">
             <FaCartArrowDown/>

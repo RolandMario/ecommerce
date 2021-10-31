@@ -1,3 +1,4 @@
+
 .mobile input{
     width: 250px;
     height: 40px;
@@ -10,6 +11,8 @@
     transition: 1s;
 }
 .mobile{
+    position: sticky;
+    top: 100px;
     display: none;
 }
 
