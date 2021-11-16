@@ -4,15 +4,18 @@ import { useContext } from 'react';
 import { ProductContext } from '../Context/ProductContext';
 
 import '../Navbarstyles/cart.css';
+import { Link } from 'react-router-dom';
 
 
 const ShoppingCart = () => {
-   const [productData, setProductData] = useContext(ProductContext);
-   console.log(setProductData)
+   const [productData, ] = useContext(ProductContext);
+   
     return ( 
         <div className="user">
+            <Link to="/cart">
             <FaCartArrowDown/>
             <span>{productData.length}</span>
+            </Link>
         </div>
      );
 }

@@ -3,7 +3,8 @@ import '../AccountInfostyles.module/register.css'
 
 const register = () => {
     return ( 
-        <div className="registerInfo">
+       
+        <div className="signininfo">
         <h2> Create Account</h2>
         <form>
         <div className="names">
@@ -36,6 +37,7 @@ const register = () => {
         <h5>Already a member?</h5>
         <p>Sign In</p>
     </div>
+    
      );
 }
  

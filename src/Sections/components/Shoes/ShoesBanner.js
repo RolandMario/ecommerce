@@ -1,40 +1,38 @@
 
 import '../ShoesStyles/ShoesBanner.css';
 import Trainers from '../images/Trainerbg.png'
-import Office from '../images/office.png'
+import Tshirt from '../images/T-1.png'
 
 const ShoesBanner = () => {
     return ( 
         <>
         <div className="shoes-container">
-                <div className="left">
-                    <div className="txt">
-                        <h1>Trainer Rebounce</h1>
-                        <h3>Both for Males <br/> And Females</h3>
-                        <div className="cta">
-                            <button>$23.89</button>
-                        </div>
+                <div className="item-trainer">
+                        <div className="desc">
+                            <h1>Trainers Rebounce</h1>
+                            <h3>both Males & Females</h3>
                         
-                    </div>
-                    <div className="photo">
-                        <img src={Trainers} alt="trainers shoes"/>
-                    </div>
-                
+                            <div className="cta">
+                                <button>$23.89</button>
+                            </div>
+                        </div>
+                        <div className="image">
+                            <img src={Trainers} alt="Trainers shoes"/>
+                        </div>
                 </div>
-                <div className="right">
-                    <div className="txt">
-                        <h1>Office Shoes</h1>
-                        <h3>Eliminate <br/> Stress</h3>
+                <div className="item-tshirt">
+                    <div className="desc">
+                        <h1> T-Shirts</h1>
+                        <h3>Unisex</h3>
+                    
                         <div className="cta">
-                            <button>$100.00</button>
+                                <button>$23.89</button>
                         </div>
-                        
                     </div>
-                    <div className="photo">
-                        <img src={Office} alt="office shoes"/>
+                    <div className="image">
+                        <img src={Tshirt} alt="Unisex T-shirts"/>
                     </div>
-                
-                </div> 
+                </div>
         </div>
         </>
      );

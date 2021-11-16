@@ -6,7 +6,7 @@
 .hotproducts{
     margin-top: 50px;
     /* margin-left: 5%; */
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,7 @@
     display: flex;
     flex-wrap: nowrap;
     overflow-x: hidden;
-    width: 85%;
+    width: 95%;
 }
 .owl-carousel::-webkit-scrollbar-button{
     width: 12;

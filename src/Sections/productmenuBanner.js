@@ -5,6 +5,8 @@ import SideAdvert from './components/ProductmenuComponents/sideAdvert';
 import ItemCarousel from './components/Items/ItemCarousel';
 import Images from '../Sections/components/images/clothesbg.png';
 import ShoesBanner from './components/Shoes/ShoesBanner';
+import TshirtCard from './components/Items/TshirtCard';
+
 
 
 
@@ -15,13 +17,16 @@ const Productmenubanner = () => {
         <>
              
         <div className="section2">
-        <Productmenu/>
-        <BannerCarousel/> 
-        <SideAdvert/>
+            <Productmenu/>
+            <BannerCarousel/> 
+            <SideAdvert/>
        
         </div>
         <ItemCarousel Images={Images}/>
         <ShoesBanner/>
+        <TshirtCard/>
+        {/* <CartItems/> */}
+        
         
         </>
      );

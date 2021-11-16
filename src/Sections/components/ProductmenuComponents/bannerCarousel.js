@@ -9,6 +9,7 @@ import ProductBanner3 from './ProductBanner3';
 const BannerCarousel = () => {
   let index = 2;
     const onClickarrowright =(e)=>{
+        e.preventDefault();
         if(index >0 && index<= 2 ){
            let banner = document.querySelectorAll('.banner');
            banner[index].classList.add('hide');
@@ -16,6 +17,8 @@ const BannerCarousel = () => {
         }        
     }   
     const onClickarrowleft =(e)=>{
+        e.preventDefault();
+        
         if(index >=0 && index<2){
            let banner = document.querySelectorAll('.banner');
         index = index+ 1;

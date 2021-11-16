@@ -4,6 +4,51 @@
     height: 100%;
     background-color: red;
 }
-.banner1Container .shoes-banner{
+.banner1Container .shoes-banner1{
+    position: relative;
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+.shoes-banner1 .banner1-left{
+    width: 50%;
+    background-color: rgb(48, 143, 180);
+    padding: 5%;
+    color: #fff;
+}
+.shoes-banner1 .banner1-left h4{
+    font-size: 30px;
+}
+.shoes-banner1 .banner1-left h3{
+    font-size: 30px;
+}
+.shoes-banner1 .banner1-right{
+    width: 50%;
+    border-left: 50px solid rgb(48, 143, 180);
+    border-bottom: 500px solid transparent;
+    background-image: url(../images/Trainerbg.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.banner1-cta{
+    position: absolute;
+    bottom: 25%;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+
+}
+.banner1-cta button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    background-color: red;
 }

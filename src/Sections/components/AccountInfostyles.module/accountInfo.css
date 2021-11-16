@@ -7,10 +7,12 @@
     background-color: #fff;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
     z-index: 5;
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
 }
  .show{
-    opacity: 1;
+    /* opacity: 1; */
+    display: block;
 }
 .accContainer .signin{
     position: absolute;

@@ -4,19 +4,21 @@ import '../ItemStyles/Card.css';
 import { CardData } from './cardData';
 import { useContext, useEffect, useState } from 'react';
 import { ProductContext } from '../Context/ProductContext';
+import { TotalContext } from '../Context/TotalContext';
 
 const Card = () => {
     
-    
-      const onAddCart =(index)=>{
+    console.log('card start')
+      const onAddCart =(index, price)=>{
           
           setProductData(prev=>[...prev, data[index]]);
+          setTotal(prev=>prev+price)
           
       }
    
     const [data, setData] = useState([]);
-    
     const [productData, setProductData] = useContext(ProductContext);
+    const [, setTotal] = useContext(TotalContext)
     console.log(productData)
     
 	useEffect(()=>{
@@ -50,7 +52,7 @@ const Card = () => {
                 </div>
                 <div className="addcart">
                     <button key={i.id} onClick={()=>{
-                        onAddCart(index)
+                        onAddCart(index, i.price)
                     }}>Add Cart</button>
                 </div>
             </div>
@@ -58,7 +60,9 @@ const Card = () => {
         
         ))}
         </>
+        
      );
+ 
 }
  
 export default Card;

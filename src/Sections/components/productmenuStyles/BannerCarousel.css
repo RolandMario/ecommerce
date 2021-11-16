@@ -52,7 +52,7 @@
 @media (max-width:799px) {
     
     .carouselContainer{
-        width: 90%;
+        width: 100vw;
         height: 200px;
     }
 }
