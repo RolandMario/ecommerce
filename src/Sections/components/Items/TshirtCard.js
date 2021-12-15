@@ -22,7 +22,7 @@ const TshirtCard = () => {
   return ( 
 
       <>
-      <div className="shirt-wrapper">
+      <div className="wrapper">
       {tshirtdata && tshirtdata.map((i,index) =>(
      <div className="shirt-container"key={i.id}>
          <div className="productImage">
@@ -31,7 +31,7 @@ const TshirtCard = () => {
          <div className="description">
                 <div className="productName">
                     <p>{i.name}</p>
-                    <p>{i.price}</p>
+                    <p>${i.price}</p>
               
                 </div>
                 <div className="star-cart">

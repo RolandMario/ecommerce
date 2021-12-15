@@ -1,10 +1,9 @@
 .carouselContainer{
     position: relative;
     overflow: hidden;
-    background-color: var(--primary);
+    /* background-color: green; */
     margin-top: 20px;
     margin-left: 2%;
-     width: 60%;
     height: 500px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
 }
@@ -54,5 +53,20 @@
     .carouselContainer{
         width: 100vw;
         height: 200px;
+        margin-left: 0%;
+    }
+}
+@media (max-width:480px) {
+    .carouselContainer{
+        width: 100vw;
+        height: 95vh;
+        margin-left: 0%;
+    }
+
+}
+@media (max-width:900px) {
+    .carouselContainer{
+        width: 95vw;
+        
     }
 }

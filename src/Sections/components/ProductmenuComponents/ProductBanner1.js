@@ -1,24 +1,21 @@
 import '../productmenuStyles/ProductBanner1.css';
-
+import Trainer from '../images/Trainerbg.png'
 
 const ProductBanner1 = () => {
     return ( 
         <>
         <div className="banner1Container">
             <div className="shoes-banner1">
-                <div className="banner1-left">
-                
-                    <h1>Trainers Rebounce</h1>
-                   
-                    <h3>Both for Males <br/> And Females</h3>
-                    <div className="banner1-cta">
-                        <button>$23.59</button>
-                    </div>
+               <h1>Sport Shoes</h1>
+               <p>Both for Male and females</p>
+               <div className="cta">
+                   <button>Order</button>
+               </div>
+               
 
-                </div>
-                <div className="banner1-right">
-                    {/* <img src={Trainer} alt="shoe"/> */}
-                </div>
+            </div>
+            <div className="product_image">
+                <img src={Trainer} alt="product image"/>
 
             </div>
         </div>
